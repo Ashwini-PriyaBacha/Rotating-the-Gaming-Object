@@ -30,6 +30,7 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop
 
 # Program:
+```
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -48,6 +49,7 @@ public class Rotate : MonoBehaviour
         transform.RotateAround(Vector3.left, Vector3.up, 40 * Time.deltaTime);
     }
 }
+```
 # Output:
 
 ![alt text](<Screenshot 2025-08-19 091750.png>)
